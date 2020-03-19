@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt
 {
-    class Util
+    class shopItem
     {
-        public Random generator = new Random();
+        Util u = new Util();
+        public shopItem()
+        {
+            int price = u.generator.Next(10, 31);
+        }
+        
+
     }
 }
