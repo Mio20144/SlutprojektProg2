@@ -8,15 +8,17 @@ namespace Slutprojekt
 {
     class Stock
     {
+        public List<string> stockBookNames = new List<string>();
+
         public Stock()
         {
             
 
-            List<string> bookNames = new List<string>();
+            
 
-            bookNames.Add("Brutal Book");
-            bookNames.Add("Cryptic");
-            bookNames.Add("Defiled Syllabus");
+            stockBookNames.Add("Brutal Book");
+            stockBookNames.Add("Cryptic");
+            stockBookNames.Add("Defiled Syllabus");
 
         }
 

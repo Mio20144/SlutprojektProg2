@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Slutprojekt
 {
-    class shopItem
+    class shopItem : Stock
     {
         Util u = new Util();
         public shopItem()
